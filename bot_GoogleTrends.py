@@ -12,7 +12,7 @@ plt.style.use('ggplot')
 
 pytrends = TrendReq(hl='en-US', tz=360)
 
-all_keywords = ['Samsung', 'Iphone', 'Redmi']
+all_keywords = ['Bitcoin', 'Magazine Luiza', 'Wege']
 
 keywords = []
 
@@ -138,6 +138,11 @@ def comparacao():
     ax3.legend()
     ax5.legend()
     plt.show()
+
+for kw in all_keywords:
+    keywords.append(kw)
+    check_trends()
+    keywords.pop()
 
 comparacao()
 
