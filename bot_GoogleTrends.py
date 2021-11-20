@@ -12,7 +12,7 @@ plt.style.use('ggplot')
 
 pytrends = TrendReq(hl='en-US', tz=360)
 
-all_keywords = ['Bitcoin', 'Magazine Luiza', 'Wege']
+all_keywords = ['Educação financeira', 'Orçamento financeiro']
 
 keywords = []
 
